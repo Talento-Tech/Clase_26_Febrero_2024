@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Cambios */
+@layer base{
+    body{
+        background-color: aliceblue;
+    }
+}
+
+.slick-slide > dic{
+    margin: 0 10px;
+}

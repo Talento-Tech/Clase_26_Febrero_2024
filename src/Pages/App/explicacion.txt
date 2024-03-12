@@ -1,0 +1,25 @@
+/* Proceso de importación de rutas tanto de react-router-dom y los compoentes*/
+import { useRoutes } from 'react-router-dom'
+import Home from '../Home';
+import Developers from '../Developers';
+import Tutorials from '../Tutorials';
+
+/* import './App.css' */
+import '../../App.css'
+/* import Table from '../../Components/Table.jsx'; */
+
+function App() {
+
+  return (
+    <>
+    <h1> Hola clase </h1>
+
+      <Table />
+
+    </>
+  )
+}
+
+export default App
+
+/* Crear una variable llamada Routes, y con ella vamos a llamar el hok de route */
